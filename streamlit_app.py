@@ -2,10 +2,6 @@ import streamlit as st
 from datetime import date
 
 
-from prophet import Prophet
-from prophet.plot import plot_plotly
-from plotly import graph_objects as go
-
 START = "2017-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
